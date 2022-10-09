@@ -1,0 +1,14 @@
+/* Laptop */
+@media screen and (max-width: 64rem) {
+  .lists .list-item {
+    display: none;
+  }
+
+  .container {
+    justify-content: center;
+  }
+
+  .section-1 .wrapper {
+    justify-content: center;
+  }
+}

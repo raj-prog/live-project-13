@@ -6,21 +6,23 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
 }
 
 header {
   background-color: #7030cc;
-  height: 100vh;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  padding: 40px 140px;
+  min-height: 100vh;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  padding: 4rem 14rem;
 }
 
 /* Navbar */
 .logo {
-  width: 120px;
+  width: 60%;
 }
 
 nav,
@@ -35,13 +37,15 @@ nav,
 
 nav .lists {
   display: flex;
+  gap: 5rem;
   flex-grow: 1;
   justify-content: flex-end;
 }
 
 nav .lists .list-item {
   list-style-type: none;
-  margin-right: 50px;
+  margin-right: 5rem;
+  font-size: 1.6rem;
   cursor: pointer;
   color: #ede5f9;
 }
@@ -50,43 +54,43 @@ nav .lists .active {
   color: #1bbcef;
   text-decoration: underline;
   text-decoration-color: #f00;
-  text-underline-offset: 6px;
+  text-underline-offset: 0.6rem;
 }
 
 nav button {
-  padding: 13px 25px;
+  padding: 1.3rem 2.5rem;
   background-color: #1bbcef;
   color: #fff;
   border: none;
-  font-size: 15px;
+  font-size: 1.5rem;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .container {
-  margin: 70px 0;
+  margin: 7rem 0;
 }
 
 .container .left-header h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 6rem;
 }
 
 .container .left-header p {
   color: #fff;
-  margin: 30px 0;
-  font-size: 15px;
+  margin: 3rem 0;
+  font-size: 1.5rem;
   line-height: 1.4;
   font-weight: normal;
 }
 
 /* Section-1 */
 .section-1 {
-  margin: 100px 140px;
+  margin: 10rem 14rem;
 }
 
 .section-1 .wrapper > div > img {
-  width: 600px;
+  width: 60rem;
 }
 
 .section-1 .right-section .description-list {
@@ -96,59 +100,60 @@ nav button {
 }
 
 .section-1 .wrapper {
-  margin: 60px 0;
+  margin: 6rem 0;
 }
 
 .section-1 .right-section h1 {
-  margin: 40px 0;
-  font-size: 40px;
+  margin: 4rem 0;
+  font-size: 4rem;
 }
 
 .section-1 .description-list {
-  width: 400px;
+  width: 40rem;
 }
 
 .section-1 .description-list h4 {
-  font-size: 23px;
+  font-size: 2.3rem;
 }
 
 .section-1 .description-list p {
-  font-size: 14px;
-  padding: 20px 0;
-  margin-left: 23px;
+  font-size: 1.4rem;
+  padding: 2rem 0;
+  margin-left: 2.3rem;
   line-height: 1.9;
 }
 
 .icon {
-  width: 15px;
+  width: 5%;
 }
 
 /* Section-2 */
 .section-2 {
-  margin: 30px 140px;
+  margin: 3rem 14rem;
 }
 
 .section-2 h1 {
-  margin: 30px 0;
+  margin: 3rem 0;
   text-align: center;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .features {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 4rem;
   flex-wrap: wrap;
 }
 
 .feature {
-  border-radius: 25px;
-  box-shadow: 5px 5px #ccc;
+  border-radius: 2.5rem;
+  box-shadow: 0.5rem 0.5rem #ccc;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 3rem;
 }
 
 .feature .content {
@@ -159,26 +164,28 @@ nav button {
 }
 
 .feature .content h2 {
-  padding-top: 10px;
+  padding-top: 1rem;
+  font-size: 1.6rem;
 }
 
 .feature .content p {
-  width: 250px;
-  padding-top: 10px;
+  width: 25rem;
+  padding-top: 1rem;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 2.5rem;
+  font-size: 1.6rem;
 }
 
 .ico {
-  width: 40px;
+  width: 4rem;
 }
 
 .feature .icons {
-  width: 100px;
-  height: 100px;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -202,6 +209,6 @@ nav button {
 
 .bg-color {
   background-color: #7030cc;
-  border-radius: 25px;
+  border-radius: 2.5rem;
   color: #fff;
 }
